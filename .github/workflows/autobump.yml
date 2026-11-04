@@ -1,15 +1,8 @@
-# Opens a pull request here when a newer Write release is out.
+# Run by hand after a Write release: opens a pull request that bumps the cask.
 name: brew bump
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - .github/workflows/autobump.yml
-  schedule:
-    # Every day at 7:15 UTC
-    - cron: 15 7 * * *
+  workflow_dispatch:
 
 permissions: {}
 
