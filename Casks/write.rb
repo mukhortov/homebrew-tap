@@ -1,6 +1,6 @@
 cask "write" do
-  version "0.7.2"
-  sha256 "534c73fbb27b95b28ed9e7d16aacb9ce1d45cf437979c42128d271f3aa894c8c"
+  version "0.7.6"
+  sha256 "4f2af9ed6ea5a8230fc2f4c419fe1676ad4dd441a091acc05fc04200824f92c6"
 
   url "https://github.com/mukhortov/write/releases/download/write-v#{version}/Write-#{version}.dmg"
   name "Write"
